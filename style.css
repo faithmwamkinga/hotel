@@ -1,0 +1,32 @@
+body{
+    overflow-x: hidden;
+}
+header{
+display: flex;
+flex-direction: row;
+font-size: x-large;
+}
+
+    .hotel{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hotel .manypics{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .hotel .manypics img{
+        width: 90%;
+        height: 27vh;
+        margin-left: 5%;
+    }
+    .hotel .onepic img{
+        width: 98%;
+        height: 90vh;
+    }
+    #more{
+        background-color: #228be6;
+        margin-left: 60%;
+        margin-top: 10%;
+
+    }
